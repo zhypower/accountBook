@@ -1,0 +1,98 @@
+view{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container{
+	position: absolute;
+	width: 100%;
+	background: #c5d5ff;
+	height: auto;
+}
+.top{
+	position: fixed;
+	top: 20px;
+	left: 10%;
+	padding: 20px;
+	width: 80%;
+	height: 200px;
+	background: #6450cb;
+	border-radius: 30px;
+	z-index: 2;
+	box-shadow: rgba(0,108,255,0.5) 0px 0px 20px;
+	
+}
+.words{
+	position: absolute;
+	bottom: 20px;
+	color: white;
+}
+.words1 span{
+	margin: 0 5px 0 5px;
+}
+.words2{
+	margin: 5px 0 5px 0;
+	font-size: 45px;
+}
+.mid{
+	position: static;
+	z-index: 1;
+	height: 1000px;
+	background: white;
+	overflow: scroll;
+	margin-top:120px; 
+	margin-bottom: 60px;
+	border-radius: 10px;
+	width: 90%;
+	box-shadow: rgba(0,108,255,0.5) 0px 0px 10px;
+	padding-top: 120px;
+}
+.bot{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	margin-top: 50px;
+  z-index: 2;
+
+}
+.btn{
+  
+	background: #6450cb;
+	color: white;
+	text-align: center;
+	width: 150px;
+	border-radius: 10px;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+	box-shadow: rgba(0,108,255,0.5) 0px 0px 10px;
+}
+.btn:hover{
+	background: #ffb922;
+}
+.left{
+	float: left;
+	margin: 5px 0;
+}
+.right{
+	float: right;
+	margin: 5px 0;
+}
+.day{
+	clear: both;
+	font-size: 14px;
+	color: #7d7d7e;
+	border-top: 1px solid #eee;
+}
+.month{
+	clear: both;
+	font-size: 14px;
+	color:#5c53af;
+	font-weight: bold;
+	border-top: 2px solid #ddd;
+}
+.kuai{
+	padding: 5px 20px;
+	margin-bottom: 30px;
+}

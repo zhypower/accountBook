@@ -1,0 +1,119 @@
+view{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container{
+	position: absolute;
+	width: 100%;
+	background: #c5d5ff;
+	height: auto;
+}
+.fx{
+  position: absolute;
+  top: 0px;
+  right: 50px;
+  background: #6450cb;
+	color: white;
+	text-align: center;
+	width: 40px;
+	border-radius: 50%;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+	box-shadow: rgba(0,108,255,0.5) 0px 0px 10px;
+}
+.top{
+	position: fixed;
+	top: 20px;
+	left: 10%;
+	padding: 20px;
+	width: 80%;
+	height: 200px;
+	background: #6450cb;
+  /* background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577325883&di=f968d77d1855ae9bab311dc4fca1c2ae&imgtype=jpg&er=1&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F9345d688d43f879477148f03d91b0ef41bd53a30.jpg"); */
+  background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576731274057&di=c2247be579670c0b76f6c5aafde7cac8&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F2b8303f5c81c964a0482f64f4c9a6eccd0eea3a85f059-gHMxQi_fw658");
+  /* background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576731379460&di=8a85a95fb0680cd674c28e5e4ff4adce&imgtype=0&src=http%3A%2F%2Fpic.huke88.com%2Fvideo%2Fcover%2F2017-10-03%2F9C6F0FFC-3D15-8351-B68F-8E9FD853027B.gif%2521%2Fformat%2Fjpg%2Ffw%2F920"); */
+  /* background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576731898280&di=1d4fd99e1579d351c8e0b17ca11c78dc&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fb45be3653b40bd199c2750e7713a1b3c171f17777aa3a-Cqxlvp_fw658"); */
+  
+  
+  
+	border-radius: 30px;
+	z-index: 2;
+	box-shadow: rgba(0,108,255,0.5) 0px 0px 20px;
+	
+}
+.words{
+	position: absolute;
+	bottom: 20px;
+	color: white;
+}
+.words1 span{
+	margin: 0 5px 0 5px;
+}
+.words2{
+	margin: 5px 0 5px 0;
+	font-size: 45px;
+}
+.mid{
+	position: static;
+	z-index: 1;
+	height: 1000px;
+	background: white;
+	overflow: scroll;
+	margin-top:120px; 
+	margin-bottom: 60px;
+	border-radius: 10px;
+	width: 90%;
+	box-shadow: rgba(0,108,255,0.5) 0px 0px 10px;
+	padding-top: 120px;
+}
+.bot{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	margin-top: 50px;
+  z-index: 2;
+
+}
+.btn{
+  
+	background: #6450cb;
+	color: white;
+	text-align: center;
+	width: 150px;
+	border-radius: 10px;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+	box-shadow: rgba(0,108,255,0.5) 0px 0px 10px;
+}
+.btn:hover{
+	background: #ffb922;
+}
+.left{
+	float: left;
+	margin: 5px 0;
+}
+.right{
+	float: right;
+	margin: 5px 0;
+}
+.day{
+	clear: both;
+	font-size: 14px;
+	color: #7d7d7e;
+	border-top: 1px solid #eee;
+}
+.month{
+	clear: both;
+	font-size: 14px;
+	color:#5c53af;
+	font-weight: bold;
+	border-top: 1px solid #c5d5ff;
+}
+.kuai{
+	padding: 5px 20px;
+	margin-bottom: 20px;
+}

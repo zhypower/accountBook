@@ -1,0 +1,6 @@
+<view class="container">
+  <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+</view>
+<view class="bot">
+    <view class="btn" bindtap="reback">返回</view>
+  </view>

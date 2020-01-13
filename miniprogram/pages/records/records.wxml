@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="main">
+
+      <view class="wordstyle">消费时间：</view>
+      <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+        <view class="kuang" >
+          {{date}}
+        </view>
+      </picker>
+
+      <view><view class="wordstyle">总体花费：</view>
+        <input class="kuang"  type="digit" bindinput="moneysAll" value="{{money}}"/>
+      </view>
+
+      <view><view class="wordstyle">具体事务：</view>
+        <input class="kuang" bindinput="eventsAll" value="{{events}}"/>
+      </view>
+
+      <view class="green btn left" bindtap="records">记录</view> <view class="red btn right" bindtap="returnMain">退出</view>
+
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<!--miniprogram/pages/main/main.wxml-->
+<view class="container">
+  <view class="top">
+    <view class="words">
+      <view class="words1" bindtap="tianjia">今天支出</view>
+      <view class="words2">{{today}}</view>
+      <view class="words1">本月支出<span>{{currentMonth}}</span>|本月可用<span bindtap="remainMoney">{{currentRemain}}</span></view>
+    </view>
+  </view>
+  <view class="mid">
+
+    <view class="kuai" wx:for="{{moneys}}" wx:for-item="item">
+        <view class="month"><view class="left">{{item.date}}日/{{item.month}}月</view><view class="right" bindtap="deletes"  data-index="{{index}}">删除</view><view class="right" bindtap="changeMoney"  data-index="{{index}}">修改/</view></view>
+        <view class="day"><view class="left">{{item.events}}</view><view class="right">{{item.money}}</view></view>
+    </view>
+    
+  </view> 
+  <view class="bot">
+    <view class="btn" bindtap="recordMoney">记一笔</view><view class="fx" bindtap="fenxi">析</view>
+  </view>
+</view>
